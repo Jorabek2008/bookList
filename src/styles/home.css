@@ -1,0 +1,9 @@
+.wrapper-home{
+    background-image: url(../img/bgImg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.opacity-item{
+    background: linear-gradient(rgba(0,0,0, 0.6),rgba(0,0,0, 0.6));
+}
