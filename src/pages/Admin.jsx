@@ -5,6 +5,7 @@ import CreateBook from '../components/CreateBook'
 import AddBook from '../components/AddBook'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Books from './../components/Books';
 
 function Admin() {
   const [addBook, setAddBook] = useState(false)
@@ -15,9 +16,10 @@ function Admin() {
     <div className='wrapper-home relative'>
     <ToastContainer />
     {addBook ? <AddBook addBook={addFunck} /> : ''}
-        <div className='container mx-auto'>
+        <div className='mx-auto px-[50px]'>
             <Navbar />
             <CreateBook addBook={addFunck} />
+            <Books />
         </div>
     </div>
   )

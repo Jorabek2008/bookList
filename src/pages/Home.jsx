@@ -17,7 +17,7 @@ function Home() {
           <div className="flex mx-auto max-w-[340px] justify-between mt-9">
             <button onClick={() => onButton()} className='text-white px-[24px] py-[10px] bg-[#6200EE] hover:bg-white hover:text-[#6200EE] transition-all ease-linear rounded-[4px]'>Go Home Page</button>
             <button onClick={() => location.reload()} className='text-[#6200EE] rounded-[4px] border-2 hover:bg-[#6200EE] hover:text-white transition-all ease-linear border-[#6200EE] bg-white px-[24px] py-[10px]'>Reload Page</button>
-          </div>      
+          </div> 
         </div>
       </div>
     )}
